@@ -1,0 +1,689 @@
+[
+  {
+    "name": "Gin Tonic",
+    "ingredients": {
+      "Gin": 50,
+      "Tonic Water": 150
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Moscow Mule",
+    "ingredients": {
+      "Wodka": 50,
+      "Ginger Beer": 120,
+      "Limettensaft": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Cuba Libre",
+    "ingredients": {
+      "Rum": 50,
+      "Cola": 120,
+      "Limettensaft": 10
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Whiskey Sour",
+    "ingredients": {
+      "Whiskey": 45,
+      "Zitronensaft": 30,
+      "Zuckersirup": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Aperol Spritz",
+    "ingredients": {
+      "Aperol": 60,
+      "Prosecco": 90,
+      "Sodawasser": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Pina Colada",
+    "ingredients": {
+      "Ananassaft": 90,
+      "Kokosmilch": 60
+    },
+    "alcoholic": false
+  },
+{
+    "name": "Tequila Sunrise",
+    "ingredients": {
+      "Tequila": 50,
+      "Orangensaft": 120,
+      "Grenadine": 10
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Tom Collins",
+    "ingredients": {
+      "Gin": 45,
+      "Zitronensaft": 30,
+      "Zuckersirup": 15,
+      "Sodawasser": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Espresso Martini",
+    "ingredients": {
+      "Wodka": 50,
+      "Kaffeelikör": 30,
+      "Espresso": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Bramble",
+    "ingredients": {
+      "Gin": 40,
+      "Zitronensaft": 20,
+      "Zuckersirup": 10,
+      "Creme de Cassis": 10
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Mai Tai",
+    "ingredients": {
+      "Weißer Rum": 30,
+      "Dunkler Rum": 30,
+      "Orgeat Sirup": 15,
+      "Orangensaft": 30,
+      "Limettensaft": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Mary",
+    "ingredients": {
+      "Tomatensaft": 150,
+      "Limettensaft": 10,
+      "Worcestershire-Sauce": 5,
+      "Tabasco": 2
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Shirley Temple",
+    "ingredients": {
+      "Ginger Ale": 120,
+      "Grenadine": 15,
+      "Maraschino-Kirschsirup": 5
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Negroni",
+    "ingredients": {
+      "Gin": 30,
+      "Campari": 30,
+      "Wermut": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Martini",
+    "ingredients": {
+      "Gin": 60,
+      "Wermut": 10
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Cosmopolitan",
+    "ingredients": {
+      "Wodka": 40,
+      "Cointreau": 20,
+      "Limettensaft": 20,
+      "Cranberrysaft": 40
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Paloma",
+    "ingredients": {
+      "Tequila": 50,
+      "Grapefruitsaft": 60,
+      "Limettensaft": 15,
+      "Sodawasser": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Margarita",
+    "ingredients": {
+      "Tequila": 50,
+      "Cointreau": 30,
+      "Limettensaft": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Strawberry Daiquiri",
+    "ingredients": {
+      "Erdbeersirup": 30,
+      "Limettensaft": 20,
+      "Zuckersirup": 10,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Ginger Mint Cooler",
+    "ingredients": {
+      "Ginger Ale": 120,
+      "Limettensaft": 20,
+      "Minze": 0
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Cinderella",
+    "ingredients": {
+      "Orangensaft": 60,
+      "Ananassaft": 60,
+      "Zitronensaft": 15,
+      "Grenadine": 10
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Old Fashioned",
+    "ingredients": {
+      "Bourbon": 60,
+      "Zuckersirup": 5,
+      "Angostura Bitters": 2
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Manhattan",
+    "ingredients": {
+      "Whiskey": 50,
+      "Wermut": 20,
+      "Angostura Bitters": 1
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Sidecar",
+    "ingredients": {
+      "Cognac": 50,
+      "Cointreau": 30,
+      "Zitronensaft": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Dark 'n' Stormy",
+    "ingredients": {
+      "Dunkler Rum": 60,
+      "Ginger Beer": 90,
+      "Limettensaft": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Long Island Iced Tea",
+    "ingredients": {
+      "Wodka": 15,
+      "Gin": 15,
+      "Tequila": 15,
+      "Rum": 15,
+      "Cointreau": 15,
+      "Zitronensaft": 25,
+      "Cola": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Colada",
+    "ingredients": {
+      "Ananassaft": 90,
+      "Kokosmilch": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Arnold Palmer",
+    "ingredients": {
+      "Eistee": 120,
+      "Zitronenlimonade": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Nojito",
+    "ingredients": {
+      "Zuckersirup": 20,
+      "Limettensaft": 20,
+      "Sodawasser": 100,
+      "Minze": 0
+    },
+    "alcoholic": false
+  },
+   {
+    "name": "Daiquiri",
+    "ingredients": {
+      "Rum": 45,
+      "Zitronensaft": 25,
+      "Zuckersirup": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "French 75",
+    "ingredients": {
+      "Gin": 30,
+      "Zitronensaft": 15,
+      "Zuckersirup": 10,
+      "Champagner": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Bloody Mary",
+    "ingredients": {
+      "Wodka": 45,
+      "Tomatensaft": 90,
+      "Limettensaft": 15,
+      "Worcestershire-Sauce": 5,
+      "Tabasco": 3
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Mint Julep",
+    "ingredients": {
+      "Bourbon": 60,
+      "Zuckersirup": 15,
+      "Minze": 0
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Pisco Sour",
+    "ingredients": {
+      "Pisco": 60,
+      "Zitronensaft": 30,
+      "Zuckersirup": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Sunrise",
+    "ingredients": {
+      "Orangensaft": 120,
+      "Grenadine": 10
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Apple Spritzer",
+    "ingredients": {
+      "Apfelsaft": 90,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Lemon & Lime Cooler",
+    "ingredients": {
+      "Zitronenlimonade": 120,
+      "Limettensaft": 20
+    },
+    "alcoholic": false
+  },
+   {
+    "name": "White Russian",
+    "ingredients": {
+      "Wodka": 50,
+      "Kaffeelikör": 25,
+      "Sahne": 25
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Boulevardier",
+    "ingredients": {
+      "Bourbon": 45,
+      "Campari": 30,
+      "Wermut": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Sazerac",
+    "ingredients": {
+      "Cognac": 60,
+      "Zuckersirup": 5,
+      "Peychaud's Bitters": 4,
+      "Angostura Bitters": 1
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Vesper",
+    "ingredients": {
+      "Gin": 60,
+      "Wodka": 20,
+      "Lillet Blanc": 10
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Caipirinha",
+    "ingredients": {
+      "Cachaça": 50,
+      "Zuckersirup": 20,
+      "Limettensaft": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Raspberry Fizz",
+    "ingredients": {
+      "Himbeersirup": 30,
+      "Zitronensaft": 20,
+      "Sodawasser": 100
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Peach Iced Tea",
+    "ingredients": {
+      "Pfirsichsaft": 60,
+      "Eistee": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Virgin Bellini",
+    "ingredients": {
+      "Pfirsichsaft": 60,
+      "Zuckersirup": 10,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Mojito",
+    "ingredients": {
+      "Weißer Rum": 45,
+      "Zuckersirup": 20,
+      "Limettensaft": 20,
+      "Sodawasser": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Gimlet",
+    "ingredients": {
+      "Gin": 60,
+      "Limettensaft": 30
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Americano",
+    "ingredients": {
+      "Campari": 30,
+      "Wermut": 30,
+      "Sodawasser": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Piña Colada",
+    "ingredients": {
+      "Ananassaft": 90,
+      "Kokosmilch": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Black Currant Bubbly",
+    "ingredients": {
+      "Schwarze Johannisbeersaft": 60,
+      "Sodawasser": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Passion Fruit Cooler",
+    "ingredients": {
+      "Maracujasaft": 60,
+      "Limettensaft": 20,
+      "Sodawasser": 100
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Penicillin",
+    "ingredients": {
+      "Blended Scotch Whisky": 45,
+      "Zitronensaft": 25,
+      "Honigsirup": 15,
+      "Ingwersirup": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Tommy's Margarita",
+    "ingredients": {
+      "Tequila": 50,
+      "Limettensaft": 25,
+      "Agavensirup": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Corpse Reviver No. 2",
+    "ingredients": {
+      "Gin": 25,
+      "Cointreau": 25,
+      "Lillet Blanc": 25,
+      "Zitronensaft": 25
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Last Word",
+    "ingredients": {
+      "Gin": 22.5,
+      "Grüner Chartreuse": 22.5,
+      "Maraschino-Likör": 22.5,
+      "Zitronensaft": 22.5
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Virgin Mojito",
+    "ingredients": {
+      "Zuckersirup": 20,
+      "Limettensaft": 25,
+      "Sodawasser": 75
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Watermelon Cooler",
+    "ingredients": {
+      "Wassermelonensaft": 120,
+      "Zitronensaft": 15,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Grapefruit & Rosemary Fizz",
+    "ingredients": {
+      "Grapefruitsaft": 90,
+      "Rosmarinsirup": 30,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Aviation",
+    "ingredients": {
+      "Gin": 45,
+      "Maraschino-Likör": 15,
+      "Creme de Violette": 7.5,
+      "Zitronensaft": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Fruit Punch",
+    "ingredients": {
+      "Orangensaft": 60,
+      "Ananassaft": 60,
+      "Cranberrysaft": 60,
+      "Limettensaft": 30
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Iced Green Tea",
+    "ingredients": {
+      "Grüner Tee": 240,
+      "Zitronensaft": 15,
+      "Honigsirup": 15
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Clover Club",
+    "ingredients": {
+      "Gin": 45,
+      "Zitronensaft": 15,
+      "Himbeersirup": 15
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Bee's Knees",
+    "ingredients": {
+      "Gin": 50,
+      "Zitronensaft": 20,
+      "Honigsirup": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Roy Rogers",
+    "ingredients": {
+      "Cola": 240,
+      "Grenadine": 15
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Old Cuban",
+    "ingredients": {
+      "Rum": 45,
+      "Zuckersirup": 15,
+      "Limettensaft": 30,
+      "Angostura-Bitter": 2,
+      "Champagner": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "El Diablo",
+    "ingredients": {
+      "Tequila": 45,
+      "Cassis": 15,
+      "Limettensaft": 20,
+      "Ingwerbier": 60
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Apple Ginger Spritzer",
+    "ingredients": {
+      "Apfelsaft": 60,
+      "Ingwerbier": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Cucumber Mint Cooler",
+    "ingredients": {
+      "Gurkensaft": 60,
+      "Limettensaft": 30,
+      "Zuckersirup": 15,
+      "Sodawasser": 60
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Peach Lemonade",
+    "ingredients": {
+      "Pfirsichsaft": 60,
+      "Zitronensaft": 30,
+      "Zuckersirup": 15,
+      "Wasser": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Rusty Nail",
+    "ingredients": {
+      "Scotch Whisky": 45,
+      "Drambuie": 25
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Black Russian",
+    "ingredients": {
+      "Wodka": 50,
+      "Kaffeelikör": 20
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Champagne Cocktail",
+    "ingredients": {
+      "Zuckersirup": 10,
+      "Angostura-Bitter": 3,
+      "Champagner": 90
+    },
+    "alcoholic": true
+  },
+  {
+    "name": "Lemon Lavender Spritzer",
+    "ingredients": {
+      "Zitronensaft": 30,
+      "Lavendelsirup": 15,
+      "Sodawasser": 120
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Pineapple Coconut Cooler",
+    "ingredients": {
+      "Ananassaft": 90,
+      "Kokoswasser": 90
+    },
+    "alcoholic": false
+  },
+  {
+    "name": "Raspberry Lime Rickey",
+    "ingredients": {
+      "Limettensaft": 30,
+      "Himbeersirup": 30,
+      "Sodawasser": 120
+    },
+    "alcoholic": false
+  }
+]
