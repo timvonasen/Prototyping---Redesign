@@ -1,65 +1,308 @@
 {
   "cocktails": [
     {
-      "name": "Mango Daiquiri",
+      "name": "Passion Fruit Mojito",
       "ingredients": [
-        {"ingredient": "mango puree", "quantity": 60}, 
-        {"ingredient": "white rum", "quantity": 45}, 
-        {"ingredient": "lime juice", "quantity": 15}, 
-        {"ingredient": "simple syrup", "quantity": 15}
-        ],
-      "contains_alcohol": true
-    },
-    {
-      "name": "Pineapple and Orange Juice Mocktail",
-      "ingredients": [{"ingredient": "pineapple juice", "quantity": 100}, {"ingredient": "orange juice", "quantity": 100}],
-      "contains_alcohol": false
-    },
-    {
-      "name": "Strawberry Lemonade",
-      "ingredients": [{"ingredient": "strawberry syrup", "quantity": 30}, {"ingredient": "lemon juice", "quantity": 30}, {"ingredient": "water", "quantity": 120}],
-      "contains_alcohol": false
-    },
-    {
-      "name": "Blue Hawaiian",
-      "ingredients": [{"ingredient": "blue curacao", "quantity": 20}, {"ingredient": "light rum", "quantity": 30}, {"ingredient": "pineapple juice", "quantity": 60}, {"ingredient": "coconut cream", "quantity": 30}],
-      "contains_alcohol": true
-    },
-    {
-      "name": "Raspberry Collins",
-      "ingredients": [{"ingredient": "raspberry syrup", "quantity": 30}, {"ingredient": "gin", "quantity": 45}, {"ingredient": "lemon juice", "quantity": 20}, {"ingredient": "club soda", "quantity": 60}],
-      "contains_alcohol": true
-    },
-    {
-    "name": "Passion Fruit Mojito",
-    "ingredients": [
-        {"ingredient": "white rum", "quantity": 45}, 
-        {"ingredient": "passion fruit puree", "quantity": 30}, 
-        {"ingredient": "lime juice", "quantity": 15}, 
-        {"ingredient": "simple syrup", "quantity": 15}, 
+        {"ingredient": "white rum", "quantity": 45},
+        {"ingredient": "passion fruit puree", "quantity": 30},
+        {"ingredient": "lime juice", "quantity": 15},
+        {"ingredient": "simple syrup", "quantity": 15},
         {"ingredient": "club soda", "quantity": 60}
-    ],
-    "contains_alcohol": true
+      ],
+      "contains_alcohol": true
     },
     {
-    "name": "Peach Bellini",
-    "ingredients": [{"ingredient": "peach puree", "quantity": 50}, {"ingredient": "prosecco", "quantity": 100}],
-    "contains_alcohol": true
+      "name": "Peach Bellini",
+      "ingredients": [
+        {"ingredient": "peach puree", "quantity": 50},
+        {"ingredient": "prosecco", "quantity": 100}
+      ],
+      "contains_alcohol": true
     },
     {
-    "name": "Watermelon Cooler",
-    "ingredients": [{"ingredient": "watermelon juice", "quantity": 120}, {"ingredient": "lime juice", "quantity": 15}, {"ingredient": "simple syrup", "quantity": 15}, {"ingredient": "sparkling water", "quantity": 60}],
-    "contains_alcohol": false
+      "name": "Watermelon Cooler",
+      "ingredients": [
+        {"ingredient": "watermelon juice", "quantity": 120},
+        {"ingredient": "lime juice", "quantity": 15},
+        {"ingredient": "simple syrup", "quantity": 15},
+        {"ingredient": "sparkling water", "quantity": 60}
+      ],
+      "contains_alcohol": false
     },
     {
-    "name": "Pina Colada",
-    "ingredients": [{"ingredient": "light rum", "quantity": 45}, {"ingredient": "pineapple juice", "quantity": 90}, {"ingredient": "coconut cream", "quantity": 30}],
-    "contains_alcohol": true
+      "name": "Pina Colada",
+      "ingredients": [
+        {"ingredient": "light rum", "quantity": 45},
+        {"ingredient": "pineapple juice", "quantity": 90},
+        {"ingredient": "coconut cream", "quantity": 30}
+      ],
+      "contains_alcohol": true
     },
     {
-    "name": "Kiwi and Lime Mocktail",
-    "ingredients": [{"ingredient": "kiwi puree", "quantity": 60}, {"ingredient": "lime juice", "quantity": 30}, {"ingredient": "simple syrup", "quantity": 15}, {"ingredient": "sparkling water", "quantity": 60}],
-    "contains_alcohol": false
-    }
+      "name": "Kiwi and Lime Mocktail",
+      "ingredients": [
+        {"ingredient": "kiwi puree", "quantity": 60},
+        {"ingredient": "lime juice", "quantity": 30},
+        {"ingredient": "simple syrup", "quantity": 15},
+        {"ingredient": "sparkling water", "quantity": 60}
+      ],
+      "contains_alcohol": false
+    },
+    {
+"name": "Mango Daiquiri",
+"ingredients": [
+{"ingredient": "mango puree", "quantity": 60},
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15}
+],
+"contains_alcohol": true
+},
+{
+"name": "Pineapple and Orange Juice Mocktail",
+"ingredients": [
+{"ingredient": "pineapple juice", "quantity": 100},
+{"ingredient": "orange juice", "quantity": 100}
+],
+"contains_alcohol": false
+},
+{
+"name": "Strawberry Lemonade",
+"ingredients": [
+{"ingredient": "strawberry syrup", "quantity": 30},
+{"ingredient": "lemon juice", "quantity": 30},
+{"ingredient": "water", "quantity": 120}
+],
+"contains_alcohol": false
+},
+{
+"name": "Blue Hawaiian",
+"ingredients": [
+{"ingredient": "blue curacao", "quantity": 20},
+{"ingredient": "light rum", "quantity": 30},
+{"ingredient": "pineapple juice", "quantity": 60},
+{"ingredient": "coconut cream", "quantity": 30}
+],
+"contains_alcohol": true
+},
+{
+"name": "Raspberry Collins",
+"ingredients": [
+{"ingredient": "raspberry syrup", "quantity": 30},
+{"ingredient": "gin", "quantity": 45},
+{"ingredient": "lemon juice", "quantity": 20},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Passion Fruit Mojito",
+"ingredients": [
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "passion fruit puree", "quantity": 30},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Peach Bellini",
+"ingredients": [
+{"ingredient": "peach puree", "quantity": 50},
+{"ingredient": "prosecco", "quantity": 100}
+],
+"contains_alcohol": true
+},
+{
+"name": "Watermelon Cooler",
+"ingredients": [
+{"ingredient": "watermelon juice", "quantity": 120},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "sparkling water", "quantity": 60}
+],
+"contains_alcohol": false
+},
+{
+"name": "Pina Colada",
+"ingredients": [
+{"ingredient": "light rum", "quantity": 45},
+{"ingredient": "pineapple juice", "quantity": 90},
+{"ingredient": "coconut cream", "quantity": 30}
+],
+"contains_alcohol": true
+},
+{
+"name": "Kiwi and Lime Mocktail",
+"ingredients": [
+{"ingredient": "kiwi puree", "quantity": 60},
+{"ingredient": "lime juice", "quantity": 30},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "sparkling water", "quantity": 60}
+],
+"contains_alcohol": false
+},
+{
+"name": "Mango Daiquiri",
+"ingredients": [
+{"ingredient": "mango puree", "quantity": 60},
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15}
+],
+"contains_alcohol": true
+},
+{
+"name": "Pineapple and Orange Juice Mocktail",
+"ingredients": [
+{"ingredient": "pineapple juice", "quantity": 100},
+{"ingredient": "orange juice", "quantity": 100}
+],
+"contains_alcohol": false
+},
+{
+"name": "Strawberry Lemonade",
+"ingredients": [
+{"ingredient": "strawberry syrup", "quantity": 30},
+{"ingredient": "lemon juice", "quantity": 30},
+{"ingredient": "water", "quantity": 120}
+],
+"contains_alcohol": false
+},
+{
+"name": "Blue Hawaiian",
+"ingredients": [
+{"ingredient": "blue curacao", "quantity": 20},
+{"ingredient": "light rum", "quantity": 30},
+{"ingredient": "pineapple juice", "quantity": 60},
+{"ingredient": "coconut cream", "quantity": 30}
+],
+"contains_alcohol": true
+},
+{
+"name": "Raspberry Collins",
+"ingredients": [
+{"ingredient": "raspberry syrup", "quantity": 30},
+{"ingredient": "gin", "quantity": 45},
+{"ingredient": "lemon juice", "quantity": 20},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Passion Fruit Mojito",
+"ingredients": [
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "passion fruit puree", "quantity": 30},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Peach Bellini",
+"ingredients": [
+{"ingredient": "peach puree", "quantity": 50},
+{"ingredient": "prosecco", "quantity": 100}
+],
+"contains_alcohol": true
+},
+{
+"name": "Watermelon Cooler",
+"ingredients": [
+{"ingredient": "watermelon juice", "quantity": 120},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "sparkling water", "quantity": 60}
+],
+"contains_alcohol": false
+},
+{
+"name": "Pina Colada",
+"ingredients": [
+{"ingredient": "light rum", "quantity": 45},
+{"ingredient": "pineapple juice", "quantity": 90},
+{"ingredient": "coconut cream", "quantity": 30}
+],
+"contains_alcohol": true
+},
+{
+"name": "Kiwi and Lime Mocktail",
+"ingredients": [
+{"ingredient": "kiwi puree", "quantity": 60},
+{"ingredient": "lime juice", "quantity": 30},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "sparkling water", "quantity": 60}
+],
+"contains_alcohol": false
+},
+{
+"name": "Mango Daiquiri",
+"ingredients": [
+{"ingredient": "mango puree", "quantity": 60},
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15}
+],
+"contains_alcohol": true
+},
+{
+"name": "Pineapple and Orange Juice Mocktail",
+"ingredients": [
+{"ingredient": "pineapple juice", "quantity": 100},
+{"ingredient": "orange juice", "quantity": 100}
+],
+"contains_alcohol": false
+},
+{
+"name": "Strawberry Lemonade",
+"ingredients": [
+{"ingredient": "strawberry syrup", "quantity": 30},
+{"ingredient": "lemon juice", "quantity": 30},
+{"ingredient": "water", "quantity": 120}
+],
+"contains_alcohol": false
+},
+{
+"name": "Blue Hawaiian",
+"ingredients": [
+{"ingredient": "blue curacao", "quantity": 20},
+{"ingredient": "light rum", "quantity": 30},
+{"ingredient": "pineapple juice", "quantity": 60},
+{"ingredient": "coconut cream", "quantity": 30}
+],
+"contains_alcohol": true
+},
+{
+"name": "Raspberry Collins",
+"ingredients": [
+{"ingredient": "raspberry syrup", "quantity": 30},
+{"ingredient": "gin", "quantity": 45},
+{"ingredient": "lemon juice", "quantity": 20},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Passion Fruit Mojito",
+"ingredients": [
+{"ingredient": "white rum", "quantity": 45},
+{"ingredient": "passion fruit puree", "quantity": 30},
+{"ingredient": "lime juice", "quantity": 15},
+{"ingredient": "simple syrup", "quantity": 15},
+{"ingredient": "club soda", "quantity": 60}
+],
+"contains_alcohol": true
+},
+{
+"name": "Peach Bellini",
+"ingredients": [
+{"ingredient": "peach puree", "quantity": 50},
+{"ingredient": "prosecco", "quantity": 100}
+],
+"contains_alcohol": true
+}
   ]
 }
