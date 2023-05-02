@@ -38,9 +38,45 @@ const OwnerPage = () => {
     "Salt",
     "Apple juice",
     "Water",
+    "white rum",
+    "passion fruit puree",
+    "lime juice",
+    "simple syrup",
+    "club soda",
+    "peach puree",
+    "prosecco",
+    "watermelon juice",
+    "sparkling water",
+    "light rum",
+    "pineapple juice",
+    "coconut cream",
+    "kiwi puree",
+    "mango puree",
+    "orange juice",
+    "strawberry syrup",
+    "lemon juice",
+    "water",
+    "blue curacao",
+    "raspberry syrup",
+    "gin",
   ];
 
   const [selectedItem, setSelectedItem] = useState(0);
+  const [pumpState, setPumpState] = useState(false);
+
+  const togglePump = async (state) => {
+    console.log("Toggling pump to state:", state ? "on" : "off"); // Add this line
+    try {
+      const esp8266Url = `http://172.21.24.91/togglePump?state=${
+        state ? "on" : "off"
+      }`;
+      const response = await fetch(esp8266Url);
+      const data = await response.text();
+      console.log("Pump toggle response:", data);
+    } catch (error) {
+      console.error("Error toggling pump:", error);
+    }
+  };
 
   const handleCardClick = (index) => {
     setSelectedItem(index);
@@ -228,11 +264,17 @@ const OwnerPage = () => {
             ))}
           </datalist>
           <button
-            className="bg-fuchsia-400 text-white font-semibold text-lg py-3 mt-4 rounded-full shadow-md w-full"
-            type="submit"
+            className={`font-semibold text-lg py-3 mt-4 rounded-full shadow-md w-full mb-4 ${
+              pumpState ? "bg-red-500 text-white" : "bg-green-500 text-white"
+            }`}
+            onClick={() => {
+              setPumpState(!pumpState);
+              togglePump(!pumpState);
+            }}
           >
-            Save Ingredients
+            Turn Pump {pumpState ? "Off" : "On"}
           </button>
+
           <button
             className="bg-gray-300 text-black font-semibold text-lg py-3 mt-4 rounded-full shadow-md w-full mb-4"
             onClick={goBackToIndex}

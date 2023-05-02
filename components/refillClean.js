@@ -1,27 +1,5 @@
 import React, { useState } from "react";
 
-const sendOrderToESP8266 = async (selectedPumpNumbers) => {
-  try {
-    const pumps = selectedPumpNumbers.reduce(
-      (acc, curr) => acc | (1 << (curr - 1)),
-      0
-    );
-    const esp8266Url = `http://192.168.2.43?pumps=${pumps}`;
-    const response = await fetch(esp8266Url, {
-      method: "GET",
-      headers: {
-        "Content-Type": "text/plain",
-      },
-    });
-
-    if (!response.ok) {
-      throw new Error(`HTTP error! status: ${response.status}`);
-    }
-  } catch (error) {
-    console.error("Error:", error);
-  }
-};
-
 const RefillClean = () => {
   const [selectedPumps, setSelectedPumps] = useState({});
 
