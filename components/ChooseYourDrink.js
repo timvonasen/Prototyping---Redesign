@@ -2,18 +2,11 @@ import React, { useState, useEffect } from "react";
 import Header from "../components/Header";
 import cocktails from "./cocktailsData";
 
-const sendOrderToESP8266 = async (
-  drinkId,
-  drinkName,
-  drinkDescription,
-  drinkIngredientsMl
-) => {
+const sendOrderToESP8266 = async (drinkId, drinkName, drinkDescription) => {
   try {
-    const esp8266Url = `http://192.168.2.43?id=${drinkId}&name=${encodeURIComponent(
+    const esp8266Url = `http://172.21.24.91/?id=${drinkId}&name=${encodeURIComponent(
       drinkName
-    )}&description=${encodeURIComponent(
-      drinkDescription
-    )}&ingredientsMl=${encodeURIComponent(JSON.stringify(drinkIngredientsMl))}`;
+    )}&description=${encodeURIComponent(drinkDescription)}`;
     const response = await fetch(esp8266Url, {
       method: "GET",
       headers: {
@@ -135,8 +128,7 @@ const ChooseYourDrink = () => {
               sendOrderToESP8266(
                 selectedCocktail.id,
                 selectedCocktail.name,
-                selectedCocktail.description,
-                selectedCocktail.ingredientsMl
+                selectedCocktail.description
               );
             }}
           >
