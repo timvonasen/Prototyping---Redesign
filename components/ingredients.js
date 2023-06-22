@@ -3,15 +3,19 @@ import { useRouter } from "next/router";
 import "react-responsive-carousel/lib/styles/carousel.min.css";
 import { Carousel } from "react-responsive-carousel";
 
-const CarouselCard = ({ text, onClick, color, cocktails }) => {
+const CarouselCard = ({ text, onClick, color, cocktails, backgroundImage }) => {
   return (
     <div
       className={`relative flex flex-col p-4 items-start justify-start h-40 w-80 rounded-md shadow-lg z-10 min-w-[300px] max-w-[400px] cursor-pointer ${color}`}
+      style={{
+        backgroundImage: `url(${backgroundImage})`,
+        backgroundSize: "cover",
+        backgroundPosition: "center",
+      }}
       onClick={onClick}
     >
-      <p className="text-xl font-bold text-white mb-3">{text}</p>
-      <p className="text-sm font-bold text-white mb-2">Possible Drinks</p>
-      <div className="grid grid-cols-2 gap-y-0,5 text-white text-sm">
+      <p className="text-xl font-bold text-white mb-2">{text}</p>
+      <div className="grid grid-cols-2 gap-y-1 text-white text-sm">
         {cocktails.map((cocktail, index) => (
           <p key={index} className="text-left">
             {cocktail}
@@ -59,6 +63,13 @@ const OwnerPage = () => {
     "blue curacao",
     "raspberry syrup",
     "gin",
+    "orange juice",
+    "strawberry syrup",
+    "lemon juice",
+    "water",
+    "blue curacao",
+    "raspberry syrup",
+    "gin",
   ];
 
   const [selectedItem, setSelectedItem] = useState(0);
@@ -67,7 +78,7 @@ const OwnerPage = () => {
   const togglePump = async (state) => {
     console.log("Toggling pump to state:", state ? "on" : "off"); // Add this line
     try {
-      const esp8266Url = `http://172.21.24.91/togglePump?state=${
+      const esp8266Url = `http://172.21.26.133/togglePump?state=${
         state ? "on" : "off"
       }`;
       const response = await fetch(esp8266Url);
@@ -96,26 +107,26 @@ const OwnerPage = () => {
         break;
       case 1:
         ingredients = {
-          pump1: "Ingredient 1B",
-          pump2: "Ingredient 2B",
-          pump3: "Ingredient 3B",
-          pump4: "Ingredient 4B",
-          pump5: "Ingredient 5B",
-          pump6: "Ingredient 6B",
-          pump7: "Ingredient 7B",
-          pump8: "Ingredient 8B",
+          pump1: "White Rum",
+          pump2: "Vodka",
+          pump3: "Soda water",
+          pump4: "Coconut milk",
+          pump5: "Lime juice",
+          pump6: "Orange juice",
+          pump7: "Cranberry juice",
+          pump8: "Pineapple juice",
         };
         break;
       case 2:
         ingredients = {
-          pump1: "Ingredient 1C",
-          pump2: "Ingredient 2C",
-          pump3: "Ingredient 3C",
-          pump4: "Ingredient 4C",
-          pump5: "Ingredient 5C",
-          pump6: "Ingredient 6C",
-          pump7: "Ingredient 7C",
-          pump8: "Ingredient 8C",
+          pump1: "Whiskey",
+          pump2: "Sweet vermouth",
+          pump3: "Cherry liqueur",
+          pump4: "Orange bitters",
+          pump5: "Dry vermouth",
+          pump6: "Campari",
+          pump7: "Coconut cream",
+          pump8: "Pineapple rum",
         };
         break;
       default:
@@ -174,11 +185,10 @@ const OwnerPage = () => {
   return (
     <div className="bg-white h-full min-h-screen flex flex-col">
       <div className="flex flex-col justify-center items-center min-h-screen">
-        <h2 className="text-2xl md:text-3xl text-black font-bold mt-20 mb-4">
+        <h2 className="text-2xl md:text-3xl text-black font-bold mt-12 mb-5">
           Cocktail packs
         </h2>
-
-        <div className="flex justify-center items-center w-full h-1/2 mb-8">
+        <div className="flex justify-center items-center w-full h-1/2 mb-10">
           <Carousel
             className="w-full h-full flex justify-center items-center"
             showArrows={false}
@@ -193,7 +203,8 @@ const OwnerPage = () => {
               <CarouselCard
                 text="Lemony Dream´s"
                 onClick={() => handleCardClick(0)}
-                color="bg-yellow-500 opacity-60"
+                color="bg-yellow-500 opacity-80"
+                backgroundImage="/images/packs/lemonydreams.png"
                 cocktails={[
                   "Bee's Knees",
                   "Caipiroska",
@@ -206,16 +217,19 @@ const OwnerPage = () => {
             </div>
             <div className="flex justify-center items-center h-full w-full">
               <CarouselCard
-                text="College budget"
+                text="Tropical Breeze"
                 onClick={() => handleCardClick(1)}
                 color="bg-teal-950 opacity-80"
+                backgroundImage="/images/packs/Tropicalbreeze.png"
                 cocktails={[
-                  "Cocktail 1B",
-                  "Cocktail 2B",
-                  "Cocktail 3B",
-                  "Cocktail 4B",
-                  "Cocktail 5B",
-                  "Cocktail 6B",
+                  "Citrus Splash",
+                  "Cranberry Cooler ",
+                  "Tropical Punch",
+                  "Coco Twist",
+                  "Pina Colada",
+                  "Tropical Paradise",
+                  "Lime Spritz",
+                  "and 13 more....",
                 ]}
               />
             </div>
@@ -224,56 +238,46 @@ const OwnerPage = () => {
                 text="Blueberry Moon"
                 onClick={() => handleCardClick(2)}
                 color="bg-indigo-950 opacity-80"
+                backgroundImage="/images/packs/blueberrymoon.png"
                 cocktails={[
-                  "Cocktail 1C",
-                  "Cocktail 2C",
-                  "Cocktail 3C",
-                  "Cocktail 4C",
-                  "Cocktail 5C",
-                  "Cocktail 6C",
+                  "Manhattan",
+                  "Old Fashioned",
+                  "Boulevardier",
+                  "Negroni",
+                  "Rob Roy",
+                  "Pina Colada",
                 ]}
               />
             </div>
           </Carousel>
         </div>
-
-        <h2 className="text-2xl text-black font-bold mb-4">Ingredient Setup</h2>
+        <h2 className="text-2xl text-black mt-5 font-bold mb-5">
+          Ingredient Setup
+        </h2>
         <form
           onSubmit={handleSubmit}
-          className="flex flex-col text-black w-full max-w-lg px-4"
+          className="flex flex-col text-black w-128 max-w-lg px-4"
         >
           {Object.keys(pumpIngredients).map((pump) => (
-            <div key={pump} className="flex items-center mb-4">
-              <label htmlFor={pump} className="mr-2">
-                {pumpTitles[pump]}:
+            <div key={pump} className="flex flex-col mb-4">
+              <label htmlFor={pump} className="pb-1 text-sm">
+                {pumpTitles[pump]}
               </label>
               <input
-                className="border border-gray-400 overflow-visible w-64 rounded-md p-2 flex-grow"
+                className="border border-gray-400 overflow-visible rounded-md p-2 flex-grow"
                 type="text"
                 id={pump}
                 name={pump}
                 value={pumpIngredients[pump]}
                 onChange={handleInputChange}
                 list="ingredients"
+                style={{ width: "320px" }}
               />
             </div>
           ))}
           <datalist id="ingredients">
-            {ingredients.map((ingredient, index) => (
-              <option key={index} value={ingredient} />
-            ))}
+            {/* Ingredient options go here */}
           </datalist>
-          <button
-            className={`font-semibold text-lg py-3 mt-4 rounded-full shadow-md w-full mb-4 ${
-              pumpState ? "bg-red-500 text-white" : "bg-green-500 text-white"
-            }`}
-            onClick={() => {
-              setPumpState(!pumpState);
-              togglePump(!pumpState);
-            }}
-          >
-            Turn Pump {pumpState ? "Off" : "On"}
-          </button>
 
           <button
             className="bg-gray-300 text-black font-semibold text-lg py-3 mt-4 rounded-full shadow-md w-full mb-4"

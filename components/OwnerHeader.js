@@ -1,19 +1,42 @@
 import React from "react";
-import Link from "next/link";
+import { useRouter } from "next/router";
+import { Box, Tab, Tabs } from "@mui/material";
+import { Opacity, List } from "@mui/icons-material";
 
 const OwnerHeader = () => {
+  const router = useRouter();
+  const [value, setValue] = React.useState(router.pathname);
+
+  const handleChange = (event, newValue) => {
+    setValue(newValue);
+    router.push(newValue);
+  };
+
   return (
-    <div className="sticky top-0 z-10 bg-white py-4 flex justify-between items-center px-4">
-      <h2 className="text-4xl font-semibold text-center text-black">
-        BlendBorg
-      </h2>
-      <Link href="/refillClean">
-        <span className="text-l text-black cursor-pointer">Refill/Clean</span>
-      </Link>
-      <Link href="/OwnerPage">
-        <span className="text-l text-black cursor-pointer">Ingredients</span>
-      </Link>
-    </div>
+    <>
+      <Box className="sticky top-0 z-10 bg-white py-4 px-4">
+        <h2 className="text-4xl font-semibold text-black">BlendBorg</h2>
+      </Box>
+      <Box
+        sx={{
+          width: "100%",
+          bgcolor: "background.paper",
+          borderBottom: "1px solid gray",
+        }}
+      >
+        <Tabs
+          value={value}
+          onChange={handleChange}
+          variant="fullWidth"
+          indicatorColor="primary"
+          textColor="primary"
+          aria-label="icon label tabs example"
+        >
+          <Tab icon={<List />} label="Ingredients" value="/OwnerPage" />
+          <Tab icon={<Opacity />} label="Refill/Clean" value="/refillClean" />
+        </Tabs>
+      </Box>
+    </>
   );
 };
 
