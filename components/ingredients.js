@@ -107,14 +107,14 @@ const OwnerPage = () => {
         break;
       case 1:
         ingredients = {
-          pump1: "White Rum",
+          pump1: "Cranberry juice",
           pump2: "Vodka",
-          pump3: "Soda water",
-          pump4: "Coconut milk",
-          pump5: "Lime juice",
+          pump3: "White Rum",
+          pump4: "Lime juice",
+          pump5: "Coconut milk",
           pump6: "Orange juice",
-          pump7: "Cranberry juice",
-          pump8: "Pineapple juice",
+          pump7: "Pineapple juice",
+          pump8: "Soda water",
         };
         break;
       case 2:
